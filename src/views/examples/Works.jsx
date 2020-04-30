@@ -97,7 +97,7 @@ class Works extends React.Component {
                       className="btn-simple"
                       color="primary"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={e => window.open("https://github.com/gsteja2307/rancour-animus",'_blank')}
                     >
                       <i className="tim-icons icon-book-bookmark" /> Source Code
                     </Button>
@@ -115,22 +115,6 @@ class Works extends React.Component {
                   </div>
                 </Col>
                 <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-                <Col md="5">
                   <h1 className="profile-title text-left">VijayCommerce</h1>
                   <h5 className="text-on-back">02</h5>
                   <p className="profile-description text-left">
@@ -140,14 +124,13 @@ class Works extends React.Component {
                     This commerce website can be hosted by yourselves , because this is serverless built 
                     on Firebase , all your marchendise can be uploaded in json format to firebase and
                     it takes care of rendering to it front end
-
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"
                       color="primary"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={e => window.open("https://github.com/gsteja2307/vijaycommerce",'_blank')}
                     >
                       <i className="tim-icons icon-book-bookmark" /> Source Code
                     </Button>
@@ -170,7 +153,7 @@ class Works extends React.Component {
           <div className="section">
             <Container>
               <Row className="justify-content-between">
-                <Col md="5">
+                <Col md="6">
                   <h1 className="profile-title text-left">Memory Game</h1>
                   <h5 className="text-on-back">03</h5>
                   <p className="profile-description text-left">
@@ -197,31 +180,14 @@ class Works extends React.Component {
                       className="btn-simple"
                       color="info"
                       href="#pablo"
-                      onClick={e => window.open("https://surya-memory-game.000webhostapp.com/",'_blank')
-                      }
+                      onClick={e => window.open("https://surya-memory-game.000webhostapp.com/",'_blank')}
                     >
                       <i className="tim-icons icon-bulb-63" /> Demo
                     </Button>
                   </div>
                 </Col>
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
                 <Col md="5">
-                  <h1 className="profile-title text-left">Student Complaint Board</h1>
+                   <h1 className="profile-title text-left">Student Complaint Board</h1>
                   <h5 className="text-on-back">04</h5>
                   <p className="profile-description text-left">
                     A complaint managment CMS website built using HTML,CSS,JS,PHP,MYSQL
@@ -236,7 +202,7 @@ class Works extends React.Component {
                       className="btn-simple"
                       color="primary"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={e => window.open("https://github.com/gsteja2307/StudentComplaintBoard",'_blank')}
                     >
                       <i className="tim-icons icon-book-bookmark" /> Source Code
                     </Button>
@@ -256,246 +222,38 @@ class Works extends React.Component {
               </Row>
             </Container>
           </div>
-          <div className="section">
+         <div className="section">
             <Container>
               <Row className="justify-content-between">
-                <Col md="5">
-                  <h1 className="profile-title text-left">Project5</h1>
+                <Col md="6">
+                  <h1 className="profile-title text-left">Robo Friends</h1>
                   <h5 className="text-on-back">05</h5>
                   <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                    Too tierd of browsing through image less contacts ? or do u feel agnoized looking at
+                    mobile screen when searchign through ccontacts ? Dont worry ! just export your
+                    Contacts in JSOn format and upload it to this website and Browse through them and more over they will all have fancy looking Robot Images 
+                    
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"
                       color="primary"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={e => window.open("https://github.com/gsteja2307/robofriends",'_blank')}
+                      
                     >
                       <i className="tim-icons icon-book-bookmark" /> Source Code
                     </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
+                   
                   </div>
-                </Col>
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
                 </Col>
                 <Col md="5">
-                  <h1 className="profile-title text-left">Project6</h1>
-                  <h5 className="text-on-back">06</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Source Code
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
-                  </div>
+                  
                 </Col>
               </Row>
             </Container>
           </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="5">
-                  <h1 className="profile-title text-left">Project7</h1>
-                  <h5 className="text-on-back">07</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Source Code
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
-                  </div>
-                </Col>
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-                <Col md="5">
-                  <h1 className="profile-title text-left">Project8</h1>
-                  <h5 className="text-on-back">08</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Source Code
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="5">
-                  <h1 className="profile-title text-left">Project9</h1>
-                  <h5 className="text-on-back">09</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Source Code
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
-                  </div>
-                </Col>
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          <div className="section">
-            <Container>
-              <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-                <Col md="5">
-                  <h1 className="profile-title text-left">Project10</h1>
-                  <h5 className="text-on-back">10</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Source Code
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Demo
-                    </Button>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
+          
           <Footer />
         </div>
       </>
