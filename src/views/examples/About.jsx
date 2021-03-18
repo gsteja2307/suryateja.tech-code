@@ -83,7 +83,7 @@ class About extends React.Component {
                   <div >
                   <div>
                   <p>
-                  I've been writing code for past 3 years and I've 1 year of experience in software industry. 
+                  I've been writing code for past 4 years and I've 20+ months of experience in software industry. 
                   </p>
                   <p>
                   I've gotten my hands dirty in various languages and frameworks. I mostly worked on frontend development, but i'm comfortable in coding back end as well. Data Structures and algorithms is my favourite till date.

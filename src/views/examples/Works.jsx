@@ -248,7 +248,23 @@ class Works extends React.Component {
                   </div>
                 </Col>
                 <Col md="5">
-                  
+                  <h1 className="profile-title text-left">Hangman</h1>
+                  <h5 className="text-on-back">06</h5>
+                  <p className="profile-description text-left">
+                  Classic hangman game. Guess the word without hanging the man.   
+                  </p>
+                  <div className="btn-wrapper pt-3">
+                    <Button
+                      className="btn-simple"
+                      color="primary"
+                      href="#pablo"
+                      onClick={e => window.open("https://github.com/gsteja2307/Hangman",'_blank')}
+                      
+                    >
+                      <i className="tim-icons icon-book-bookmark" /> Source Code
+                    </Button>
+                   
+                  </div>
                 </Col>
               </Row>
             </Container>
