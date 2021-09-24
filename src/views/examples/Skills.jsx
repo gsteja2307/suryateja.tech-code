@@ -101,7 +101,7 @@ class Skills extends React.Component {
                         <div>
                           <h4>Frameworks/Libraries I have worked with</h4>
                           <div>
-                            <p>React,ES6,React Native, Bootstrap</p>
+                            <p>React,Redux,ES6,React Native,Redux Forms</p>
                             <p>RESTful Services</p>
                             <p>Node, Express</p>
                             <p>SQL server, MySQL, MongoDB</p>
